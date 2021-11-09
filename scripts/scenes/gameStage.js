@@ -11,7 +11,7 @@ export class GameStage extends Phaser.Scene{
     this._settings = {
       scrollBg : true,
       playerSpeed : 150,
-      playerLife : 1
+      playerLife : 3
     }
     this.obj = this.text = this.vars = {};
   }
