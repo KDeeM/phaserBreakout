@@ -1,6 +1,7 @@
 import * as CMP from "../components/components.js"
 import { GameOverScene } from "./gameOver.js";
 
+// small change for live
 export class GameStage extends Phaser.Scene{
   constructor(){
     super("gameStage");
