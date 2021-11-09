@@ -7,7 +7,7 @@ export class PreloaderScene extends Phaser.Scene{
   }
 
   preload(){
-    let rel = "/"
+    let rel = "https://kdeem.github.io/phaserBreakout/"
     this.createLoadingScreen();
     this.load.image("bg", rel + "images/stageBackground.jpg");
     this.load.image("logo", rel + "images/logo.png");
