@@ -14,10 +14,7 @@ function init(){
     height : 640,
     type : Phaser.AUTO,
     physics : {
-      default : "arcade",
-      arcade : {
-//         debug : true
-      }
+      default : "arcade"
     },
     scale : {
       mode : Phaser.Scale.FIT,
